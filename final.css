@@ -10,6 +10,7 @@ body {
     align-items: center;
     text-align: center;
     padding: 20px;
+    touch-action: manipulation; /* Mejora la respuesta táctil */
 }
 
 .container {
@@ -17,16 +18,17 @@ body {
     color: rgb(0, 0, 0);
     padding: 30px;
     border-radius: 15px;
-    max-width: 500px;
-    max-height: 80vh; /* Máximo 80% de la altura de la pantalla */
-    overflow: auto; /* Agrega scroll cuando el contenido es muy largo */
+    max-width: 90vw; /* En móviles, ajusta el ancho para evitar desbordes */
+    max-height: 80vh;
+    overflow: auto;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 18px; /* Reducimos un poco el tamaño del texto en móviles */
     margin-bottom: 20px;
     text-align: justify;
+    line-height: 1.5;
 }
 
 button {
