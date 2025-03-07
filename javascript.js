@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "You always suport me", 
     "You always follow my jokes and never get offended",    
     "The BIG details you have with me",   
-    "How generous you are (I'm not talking about money)",
+    "How generous you are, in all the ways",
     "With you I can talk about everything, without fear of being judged",
     "The way you care for the people you love",
     "The genuine love we feel",
