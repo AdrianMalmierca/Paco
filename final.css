@@ -9,6 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 20px;
 }
 
 .container {
@@ -17,24 +18,27 @@ body {
     padding: 30px;
     border-radius: 15px;
     max-width: 500px;
-    overflow: auto;
+    max-height: 80vh; /* Máximo 80% de la altura de la pantalla */
+    overflow: auto; /* Agrega scroll cuando el contenido es muy largo */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 button {
-    background-color: #983bf4;
-    color: rgb(0, 0, 0);
+    background-color: #ff4081;
+    color: white;
     border: none;
     padding: 12px 24px;
     font-size: 18px;
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s;
+    margin-top: 15px;
 }
 
 button:hover {
