@@ -9,24 +9,20 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 20px;
 }
 
 .container {
-    background: rgba(255, 134, 251, 0.873);
-    color: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
     padding: 30px;
     border-radius: 15px;
     max-width: 500px;
-    max-height: 80vh; /* Máximo 80% de la altura de la pantalla */
-    overflow: auto; /* Agrega scroll cuando el contenido es muy largo */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 24px;
     margin-bottom: 20px;
-    text-align: justify;
 }
 
 button {
@@ -38,7 +34,6 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s;
-    margin-top: 15px;
 }
 
 button:hover {
