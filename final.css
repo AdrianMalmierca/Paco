@@ -2,33 +2,32 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
-    overflow: hidden;
+    padding: 0;
+    overflow: hidden; /* Asegura que no haya scroll innecesario */
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 20px;
 }
 
 .container {
     background: rgba(255, 134, 251, 0.873);
     color: rgb(0, 0, 0);
-    padding: 30px;
+    padding: 20px;
     border-radius: 15px;
-    max-width: 90%; /* Ajusta el contenedor para pantallas más pequeñas */
-    max-height: 80vh;
-    overflow: auto; /* Permite el scroll dentro del contenedor */
+    max-width: 90%; /* Evita que el contenido se desborde en pantallas pequeñas */
+    max-height: 80vh; /* Limita la altura para que no ocupe toda la pantalla */
+    overflow: auto; /* Agrega scroll solo si es necesario */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
-    font-size: 16px; /* Tamaño de texto ajustado para móviles */
+    font-size: 16px; /* Ajusta el tamaño del texto para dispositivos pequeños */
+    line-height: 1.5; /* Mejora la legibilidad del texto */
     margin-bottom: 20px;
-    text-align: justify;
-    line-height: 1.5; /* Aumenta la separación entre las líneas de texto */
-    word-wrap: break-word; /* Asegura que el texto largo se divida en palabras y no se desborde */
+    word-wrap: break-word; /* Evita que las palabras largas se desborden */
 }
 
 button {
