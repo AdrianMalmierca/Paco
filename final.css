@@ -17,16 +17,17 @@ body {
     color: rgb(0, 0, 0);
     padding: 30px;
     border-radius: 15px;
-    max-width: 500px;
-    max-height: 80vh; /* Máximo 80% de la altura de la pantalla */
-    overflow: auto; /* Agrega scroll cuando el contenido es muy largo */
+    max-width: 90%; /* Ajusta el contenedor para pantallas más pequeñas */
+    max-height: 80vh;
+    overflow: auto; /* Permite el scroll dentro del contenedor */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 16px; /* Tamaño de texto ajustado para móviles */
     margin-bottom: 20px;
     text-align: justify;
+    line-height: 1.5; /* Aumenta la separación entre las líneas de texto */
 }
 
 button {
