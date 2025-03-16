@@ -28,6 +28,7 @@ h1 {
     margin-bottom: 20px;
     text-align: justify;
     line-height: 1.5; /* Aumenta la separación entre las líneas de texto */
+    word-wrap: break-word; /* Asegura que el texto largo se divida en palabras y no se desborde */
 }
 
 button {
